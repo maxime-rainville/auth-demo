@@ -1,0 +1,5 @@
+mappings:
+  TempDevTask: Acme\Web\TempDevTask
+  DummyAdmin: Acme\Web\DummyAdmin
+  DummyReport: Acme\Web\DummyReport
+  Dummy: Acme\Web\Dummy

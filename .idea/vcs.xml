@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/simple" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/maxime-rainville/silverstripe-auth0" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/maxime-rainville/silverstripe-cms-analytics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/maxime-rainville/silverstripe-impersonate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/maxime-rainville/silverstripe-rekognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/maximerainville/silverstripe-auth0" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/nglasl/silverstripe-misdirection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/admin/node_modules/@silverstripe/eslint-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/admin/node_modules/@silverstripe/webpack-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/admin/node_modules/react-resize-aware" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/asset-admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/asset-admin/node_modules/@silverstripe/webpack-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/assets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/campaign-admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/cms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/errorpage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/framework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/graphql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/recipe-cms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/recipe-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/reports" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/siteconfig" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/tagfield" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/versioned" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/silverstripe/versioned-admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../silverstripe-errorpage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../silverstripe-s3" vcs="Git" />
+  </component>
+</project>

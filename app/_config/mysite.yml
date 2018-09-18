@@ -1,0 +1,27 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app/src
+
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Security\Security:
+    properties:
+      Authenticators:
+        # Keep the regular MemberAuthenticator as the default authenticator.
+        default: '%$SilverStripe\Security\MemberAuthenticator\MemberAuthenticator'
+        # Register the auth0 authenticator under a different key.
+#        auth0: '%$MaximeRainville\Auth0\Authenticator'
+        impersonate: '%$MaximeRainville\Impersonate\Authenticator'
+  Auth0\SDK\Auth0:
+    class: MaximeRainville\Auth0\Client
+    constructor:
+      - auth0 # You need to tell the Auth0 client under what key our auth0 authenticator is registered
+
+MaximeRainville\Auth0\LoginHandler:
+  extensions:
+    - MaximeRainville\Auth0\Extensions\LoginHandlerAuthorizationExtension('http://silverstripe.com/claims/')
+
+SilverStripe\Security\Member:
+  extensions:
+    - MaximeRainville\Auth0\Extensions\MemberExtraMetaDataExtension
